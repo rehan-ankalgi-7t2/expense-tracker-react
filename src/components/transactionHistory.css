@@ -1,0 +1,56 @@
+/* .transaction {
+    padding: 0px 200px;
+} */
+
+.transaction ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transaction li {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    /* border: 1px solid red; */
+}
+
+.transaction li span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+    width: 88%;
+    padding: 12px 12px 12px 12px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.transaction li span p:nth-child(2){
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.transaction li button {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    transition: all 0.2s ease-out;
+    border: none;
+}
+
+.transaction li button:hover {
+    background-color: black;
+}
+
+.income {
+    border-right: 8px solid green;
+}
+
+.expense {
+    border-right: 8px solid red;
+}

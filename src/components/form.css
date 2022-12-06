@@ -1,0 +1,39 @@
+.form {
+    width: 100%;
+    height: fit-content;
+    padding: 24px 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.form div {
+    display: flex;
+    flex-flow: column;
+}
+
+.form label {
+    font-size: 14px;
+}
+
+.form em {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.form input {
+    height: 48px;
+    border: none;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    font-size: 14px;
+    color: black;
+}
+
+.form input[type=submit] {
+    background-color: purple;
+    color: white;
+}
