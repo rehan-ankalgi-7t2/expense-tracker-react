@@ -10,7 +10,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  background-color: #1e1e1e;
+  color: white;
+  background-image: url(./assets/dust-overlay.jpg);
+  background-blend-mode: hard-light;
 }
+
+h1, h2, h3 {
+  font-family: 'Monument', 'inter';
+  font-weight: normal;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

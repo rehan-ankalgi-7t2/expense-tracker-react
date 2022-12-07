@@ -1,7 +1,7 @@
 .header {
     height: 80px;
     width: 100%;
-    background-color: blue;
+    background-color: rgba(40, 40, 40, 0.6);
     color: white;
     padding: 0px 120px;
     display: flex;

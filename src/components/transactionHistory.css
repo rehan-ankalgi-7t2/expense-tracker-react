@@ -1,6 +1,6 @@
-/* .transaction {
-    padding: 0px 200px;
-} */
+.transaction {
+    font-family: 'Monument', 'Inter';
+}
 
 .transaction ul {
     list-style-type: none;
@@ -22,13 +22,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 24px;
-    width: 88%;
+    width: 92%;
     padding: 12px 12px 12px 12px;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    background-color: rgba(32, 32, 32, 0.6);
+    /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12); */
 }
 
 .transaction li span p:nth-child(2){
-    font-weight: bold;
+    font-size: 18px;
+}
+
+.transaction li span p:nth-child(1){
+    font-family: 'Manrope';
     font-size: 18px;
 }
 
@@ -38,7 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #1e1e1e;
     transition: all 0.2s ease-out;
     border: none;
 }

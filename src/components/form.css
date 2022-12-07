@@ -2,7 +2,7 @@
     width: 100%;
     height: fit-content;
     padding: 24px 0px;
-    background-color: black;
+    background-color: rgba(40, 40, 40, 0.6);
     color: white;
     display: flex;
     align-items: flex-end;
@@ -30,10 +30,23 @@
     box-sizing: border-box;
     margin-top: 12px;
     font-size: 14px;
-    color: black;
+    background: black;
+    color: white;
+}
+
+.form input:focus {
+    border: 2px solid white;
 }
 
 .form input[type=submit] {
-    background-color: purple;
+    background-color: transparent;
     color: white;
+    border: 2px solid white;
+    transition: all 0.3s ease-out;
+    font-weight: bold;
+}
+
+.form input[type=submit]:hover {
+    background-color: white;
+    color: black;
 }
